@@ -1,0 +1,293 @@
+
+@charset "UTF-8";
+
+/* Joel Victor Portfolio - Main Stylesheet */
+
+
+/* ---------- BODY ---------- */
+
+body {
+    background-color: #e8edf2;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+/* ---------- WRAPPER ---------- */
+
+#wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: #025373;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #025373;
+}
+
+
+/* ---------- MAIN CONTENT ---------- */
+
+main {
+    padding: 30px;
+}
+
+article {
+    padding: 20px;
+}
+
+#welcome {
+    background-color: #F2F0F2;
+    padding: 30px;
+    text-align: center;
+}
+
+#welcome h2 {
+    color: #1f3a5f;
+    font-size: 30px;
+}
+
+#welcome p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* ---------- PAGE BUTTON ---------- */
+
+.page-button {
+    display: inline-block;
+    background-color: #025373;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-top: 15px;
+}
+
+.page-button:hover {
+    background-color: #025373;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: #025373;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer address {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: 5px solid #025373;
+}
+
+/* =========================================
+   CONTACT PAGE
+   ========================================= */
+
+#contact {
+    width: 750px;
+    max-width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #F2F0F2;
+
+    padding: 40px 60px;
+
+    border-top: 6px solid #048ABF;
+}
+
+
+/* ---------- HEADING ---------- */
+
+#contact h2 {
+    color: #025373;
+
+    text-align: center;
+
+    font-size: 32px;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+/* ---------- INTRO TEXT ---------- */
+
+.contact-intro {
+    color: #025373;
+
+    text-align: center;
+
+    font-size: 16px;
+
+    margin-bottom: 40px;
+}
+
+
+/* ---------- FORM ---------- */
+
+#contact form {
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ---------- LABELS ---------- */
+
+#contact label {
+    display: block;
+
+    color: #025373;
+
+    font-size: 16px;
+
+    letter-spacing: 2px;
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+/* ---------- INPUT BOXES ---------- */
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="number"],
+#contact textarea {
+
+    width: 100%;
+
+    background-color: white;
+
+    border: 2px solid #79C4F2;
+
+    border-radius: 5px;
+
+    padding: 12px;
+
+    font-family: Verdana, Geneva, Arial, sans-serif;
+
+    box-sizing: border-box;
+}
+
+
+/* ---------- MESSAGE BOX ---------- */
+
+#contact textarea {
+    height: 180px;
+
+    resize: vertical;
+}
+
+
+/* ---------- CLICKING INPUT ---------- */
+
+#contact input:focus,
+#contact textarea:focus {
+
+    border-color: #048ABF;
+
+    outline: none;
+
+    background-color: white;
+}
+
+
+/* ---------- PLACEHOLDER ---------- */
+
+#contact textarea::placeholder {
+    color: #025373;
+
+    font-size: 12px;
+}
+
+
+/* ---------- SUBMIT BUTTON ---------- */
+
+#contact input[type="submit"] {
+
+    display: block;
+
+    width: 65%;
+
+    margin: 40px auto 0 auto;
+
+    padding: 13px;
+
+    background-color: #048ABF;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+/* ---------- SUBMIT HOVER ---------- */
+
+#contact input[type="submit"]:hover {
+
+    background-color: #025373;
+
+    transform: scale(1.03);
+}
