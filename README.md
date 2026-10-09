@@ -1,12 +1,5 @@
 # Assignment 1 – Personal Portfolio Website
 
-## Student Information
-
-**Name:** Joel Victor  
-**University:** Ontario Tech University  
-**Course:** INFR3120 – Web and Scripting Programming  
-**Assignment:** Assignment 1 – HTML5 and CSS3 Personal Portfolio
-
 ## 1. Project Description
 
 For Assignment 1, I created a personal portfolio website using HTML5 and CSS3. The purpose of my website is to introduce myself, showcase my technical skills and previous projects, and provide visitors with a way to contact me.
