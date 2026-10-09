@@ -1,0 +1,23 @@
+
+/* Tablet: 481px to 959px */
+
+#wrapper {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about, #projects, #contact, #welcome,
+#introduction-video {
+    padding: 25px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}

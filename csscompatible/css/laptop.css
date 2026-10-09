@@ -1,0 +1,14 @@
+
+/* Desktop and laptop: 960px and above */
+
+#wrapper {
+    width: 90%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}

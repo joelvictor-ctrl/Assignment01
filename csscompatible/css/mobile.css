@@ -1,0 +1,40 @@
+
+/* Mobile: 480px and below */
+
+#wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 26px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+#about, #projects, #contact, #welcome,
+#introduction-video {
+    padding: 15px;
+}
+
+.project-box {
+    padding: 12px;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact input[type="submit"] {
+    width: 100%;
+}
